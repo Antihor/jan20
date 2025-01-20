@@ -1,2 +1,19 @@
 @import url('./reset.css');
 
+.js-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-item {
+    flex-basis: calc(100% / 4);
+}
+button{
+    background-color: rgb(74, 74, 196);
+    color: aliceblue;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
